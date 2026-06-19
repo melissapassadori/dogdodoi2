@@ -1,0 +1,189 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cabecalho{
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+
+.btnAvaliacao{
+    background-color: deeppink;
+    color: #fff;
+    border: none;
+    border-radius: 50px ;
+    width: 120px ;
+    height: 30px;
+}
+
+.banner{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #bfb0da;
+}
+
+.tituloBanner{
+    color: deeppink;
+    font-size: 40px;
+}
+
+.subTituloBanner{
+    font-weight: normal;
+    font-family: "Dubai Light";
+    font-size: 20px;
+}
+
+.btnBanner{
+    background-color: deeppink;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    width: 250px;
+    height: 30px;
+}
+
+.cachorroBanner img{
+    width: 500px;
+}
+
+.bemVindo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    gap: 40px;
+}
+
+.fundoTexto1,
+.fundoTexto2{
+    width: 50%;
+}
+
+.fundoTexto1 h4{
+    color: deeppink;
+}
+
+.beneficios{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fundoBeneficios{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.beneficio1 img{
+    border-radius: 50%;
+    width:100px;
+}
+
+.beneficio2 img{
+    border-radius: 50%;
+    width:100px;
+}
+
+.beneficio3 img{
+    border-radius: 50%;
+    width:100px;
+}
+
+.beneficio1,
+.beneficio2,
+.beneficio3{
+    color: deeppink;
+    text-align: center;
+}
+
+.tituloBeneficios{
+    color: deeppink;
+    font-size: 40px;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fundoFormulario{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 300px
+}
+
+.avaliacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fundoAvaliacao{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.avaliacao input{
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    border-color: #cecece;
+    box-shadow: 2px 3px 2px #cecece;
+}
+
+.bntFormAvaliacao{
+    background-color: deeppink;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #bfb0da;
+}
+
+.logoZap{
+    height: 80px;
+    position:fixed;
+    bottom: 10px;
+    right: 10px;
+}
